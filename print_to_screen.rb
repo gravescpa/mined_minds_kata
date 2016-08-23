@@ -14,13 +14,15 @@
 x = 1
 	#while x <= 100
 	100.times do
-		if x % 3 == 0
+		if x % 15 == 0
+			puts "Mined Minds"
+		elsif x % 3 == 0
 			puts "Mined"
 		elsif x % 5 == 0
 			puts "Minds"
 			else
 				puts x
-		end
+			end
 		
 		#else
 			# if x % 5 == 0
