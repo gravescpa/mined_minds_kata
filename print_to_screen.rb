@@ -12,26 +12,24 @@
 # 	puts "1\n"
 # end
 x = 1
-	while x <= 100
-		if x == 3
+	#while x <= 100
+	100.times do
+		if x % 3 == 0
 			puts "Mined"
-			if x == 5
-				puts "Minds"
 			else
 				puts x
-				puts ""
-			end
-		
-		else
-			if x == 5
-				puts "Minds"
-			else
-
-		puts x
-		puts ""
-			end
-
 		end
+		
+		#else
+			# if x % 5 == 0
+			# 	puts "Minds"
+			# else
+
+		#puts x
+		#puts ""
+			# end
+
+		#end
 
 		
 
